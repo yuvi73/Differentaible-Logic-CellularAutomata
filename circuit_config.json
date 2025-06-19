@@ -1,0 +1,18 @@
+{
+  "perception_kernels": [
+    {
+      "layers": [
+        [
+          { "gate_type": "AND", "input1_idx": 0, "input2_idx": 1 }
+        ]
+      ]
+    }
+  ],
+  "update_network": {
+    "layers": [
+      [
+        { "gate_type": "XOR", "input1_idx": 0, "input2_idx": 1 }
+      ]
+    ]
+  }
+} 
